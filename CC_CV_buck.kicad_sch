@@ -3693,6 +3693,16 @@
 		)
 		(uuid "ff22a666-b8db-42ce-b05f-f02cd17a6e4c")
 	)
+	(text "tie EN to a switch or something "
+		(exclude_from_sim no)
+		(at 36.83 28.702 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "62847452-9eff-4258-ade2-3b0116c65184")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 209.55 77.47 270)
@@ -4509,7 +4519,7 @@
 				)
 			)
 		)
-		(property "Footprint" "aoz6605:SO8_EP1_AOS-M"
+		(property "Footprint" "AOZ6605PI_1:SO8_EP1_AOS-L"
 			(at 64.77 41.91 0)
 			(effects
 				(font
