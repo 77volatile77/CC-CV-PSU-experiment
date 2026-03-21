@@ -1,0 +1,180 @@
+(footprint "L_Abracon_ASPI-1040HI"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 -3.15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5778fe4a-12a5-40d8-8064-c7e170809911")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "L_Abracon_ASPI-1040HI"
+		(at 0.45 3.55 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "00d8a199-e6f7-46c7-9979-cf6fc02b5e2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.2 2.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f35be847-0d83-49c0-9d75-bd713d43985a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.2 2.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7a6bd7e-efe1-4cf2-813f-073a67e2253b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.2 2.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8ba1fb43-7421-4228-a275-00369a3e8c38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5.7 -5.1)
+		(end 5.9 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f3a154d6-d826-49b7-9101-000662f418c7")
+	)
+	(fp_line
+		(start -5.7 -3)
+		(end -5.7 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de5d9f4b-443c-4df9-9b93-938648f27193")
+	)
+	(fp_line
+		(start -5.7 4.85)
+		(end -5.7 2.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "667e15cb-d3fa-46f1-955a-3d3fa61b8545")
+	)
+	(fp_line
+		(start 5.9 -5.1)
+		(end 5.9 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1cd84e85-18cd-446c-8bcd-110ee31e43fb")
+	)
+	(fp_line
+		(start 5.9 2.75)
+		(end 5.9 4.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97bf1808-0cc4-4371-8234-da510ad3a104")
+	)
+	(fp_line
+		(start 5.9 4.85)
+		(end -5.7 4.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c0c80b10-3594-4633-850c-60a655b3e133")
+	)
+	(fp_rect
+		(start -5.65 -5.1)
+		(end 5.85 4.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8b621714-5955-4ad8-9abb-e63199e2f358")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d85d45b7-d817-4812-a494-9e1e76bdc2ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.75 0)
+		(size 4.1 4.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "34b6612a-40d1-4306-b2f6-4e929fd9d482")
+	)
+	(pad "2" smd roundrect
+		(at 4.75 0)
+		(size 4.1 4.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "6234374d-0db3-4b74-968b-79f1f129b45b")
+	)
+	(model "${KIPRJMOD}/Components/10uH_inductor.pretty/ASPI-1040HI.STEP"
+		(offset
+			(xyz 0 0 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
