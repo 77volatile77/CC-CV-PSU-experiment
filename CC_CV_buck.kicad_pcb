@@ -182,12 +182,6 @@
 	(net 32 "/I_SNS")
 	(net 33 "/BUCK_FB")
 	(net 34 "Net-(R16-Pad2)")
-	(net 35 "unconnected-(RV1-Pad3)")
-	(net 36 "unconnected-(RV1-Pad2)")
-	(net 37 "unconnected-(RV1-Pad1)")
-	(net 38 "unconnected-(RV2-Pad1)")
-	(net 39 "unconnected-(RV2-Pad3)")
-	(net 40 "unconnected-(RV2-Pad2)")
 	(footprint "10uH_inductor:L_Abracon_ASPI-1040HI"
 		(layer "F.Cu")
 		(uuid "0a0f5921-e0a9-4ec5-a546-eb7417183d67")
@@ -4425,7 +4419,7 @@
 	(footprint "potentiometer:POT_PTN16-A20120K1B1"
 		(layer "F.Cu")
 		(uuid "462f33b2-3ccb-42a8-bd54-cd44f6c788d8")
-		(at 111.952 155.99)
+		(at 68.8 103)
 		(property "Reference" "RV3"
 			(at -0.575 -8.675 0)
 			(layer "F.SilkS")
@@ -12553,7 +12547,7 @@
 	(footprint "potentiometer:POT_PTN16-A20120K1B1"
 		(layer "F.Cu")
 		(uuid "9a093962-2730-4d9f-aa05-976db490ac4a")
-		(at 88.8885 155.99)
+		(at 112.6 102.8)
 		(property "Reference" "RV2"
 			(at -0.575 -8.675 0)
 			(layer "F.SilkS")
@@ -12956,7 +12950,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 38 "unconnected-(RV2-Pad1)")
+			(net 9 "Vcc")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -12968,7 +12962,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 40 "unconnected-(RV2-Pad2)")
+			(net 24 "/ISET")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -12980,7 +12974,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 39 "unconnected-(RV2-Pad3)")
+			(net 6 "GND")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -13427,7 +13421,7 @@
 	(footprint "potentiometer:POT_PTN16-A20120K1B1"
 		(layer "F.Cu")
 		(uuid "a0186bda-3a19-44a3-984d-2c82655b8c91")
-		(at 65.825 155.99)
+		(at 89.5365 102.8)
 		(property "Reference" "RV1"
 			(at -0.575 -8.675 0)
 			(layer "F.SilkS")
@@ -13830,7 +13824,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 37 "unconnected-(RV1-Pad1)")
+			(net 9 "Vcc")
 			(pinfunction "1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -13842,7 +13836,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 36 "unconnected-(RV1-Pad2)")
+			(net 25 "/VSET")
 			(pinfunction "2")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -13854,7 +13848,7 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 35 "unconnected-(RV1-Pad3)")
+			(net 6 "GND")
 			(pinfunction "3")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
@@ -13875,7 +13869,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a241d2e4-501d-4152-abf9-92866b9efaa5")
-		(at 63.4 182.05)
+		(at 64.6 140.2)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -16744,7 +16738,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e72f2eb4-6eb2-4155-ba96-3a79ef91d344")
-		(at 63.4 185)
+		(at 59.6 146.6)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
@@ -18761,19 +18755,6 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "4cee3baf-0879-446a-bf5f-6702e1789d13")
-	)
-	(gr_text "test"
-		(at 85.2 101.6 0)
-		(layer "F.SilkS")
-		(uuid "f9a68994-479c-4548-aa25-5c7cbc1696c1")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
 	)
 	(segment
 		(start 139.7275 99.17125)
