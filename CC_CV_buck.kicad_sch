@@ -6912,16 +6912,6 @@
 		)
 		(uuid "2e443498-44bf-4653-902e-12de2c722a4c")
 	)
-	(text "Seems like LDO should get most of the bulk cap"
-		(exclude_from_sim no)
-		(at 130.048 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4397563a-e2bc-4747-b93f-943b03dd5a9f")
-	)
 	(text "0-10V\n0-5A"
 		(exclude_from_sim no)
 		(at 339.09 70.866 0)
@@ -7004,15 +6994,15 @@
 		)
 		(uuid "788a11c6-ddf6-4a15-9904-ae57c91a777c")
 	)
-	(text "How much Cout on buck? "
+	(text "put a electrolytic here, probably?"
 		(exclude_from_sim no)
-		(at 131.064 44.704 0)
+		(at 29.972 90.424 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "8b3e51cd-193c-4ff7-9544-04302fb7155c")
+		(uuid "adc8b7f2-92a3-4f98-9606-72d330d07c8c")
 	)
 	(text "CC/CV Indication"
 		(exclude_from_sim no)
@@ -7429,7 +7419,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0a800039-2af1-4fc6-9e23-ad30be0cc76e")
 		(property "Reference" "C2"
@@ -7440,7 +7430,7 @@
 				)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "4p7"
 			(at 284.48 90.17 90)
 			(effects
 				(font
@@ -7510,7 +7500,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "5k"
 			(at 314.96 123.1899 0)
 			(effects
 				(font
@@ -8193,7 +8183,7 @@
 				)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "5k"
 			(at 313.69 160.02 90)
 			(effects
 				(font
@@ -8940,7 +8930,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "33e6ac1e-9ae1-4294-b30d-d6f4263eb88d")
 		(property "Reference" "C3"
 			(at 286.004 136.398 90)
@@ -9151,7 +9141,7 @@
 				)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "4n7"
 			(at 278.13 101.6 90)
 			(effects
 				(font
@@ -9510,7 +9500,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "15u"
 			(at 241.3 82.5499 0)
 			(effects
 				(font
@@ -10455,7 +10445,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 173.99 177.8 0)
 			(effects
 				(font
@@ -10516,7 +10506,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "220u"
 			(at 229.87 81.9149 0)
 			(effects
 				(font
@@ -11081,7 +11071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 157.48 177.8 0)
 			(effects
 				(font
@@ -11616,7 +11606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "220u"
 			(at 218.44 81.9149 0)
 			(effects
 				(font
@@ -12113,7 +12103,7 @@
 				)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "1n"
 			(at 279.654 150.876 90)
 			(effects
 				(font
@@ -12929,7 +12919,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "15u"
 			(at 252.73 82.5499 0)
 			(effects
 				(font
@@ -13134,7 +13124,7 @@
 				)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "100k"
 			(at 293.37 151.13 90)
 			(effects
 				(font
@@ -14988,7 +14978,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "5k"
 			(at 314.96 110.4899 0)
 			(effects
 				(font
@@ -15327,7 +15317,7 @@
 				)
 			)
 		)
-		(property "Value" "tbd"
+		(property "Value" "50k"
 			(at 292.1 102.87 90)
 			(effects
 				(font
