@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "AOZ6605PI-1 ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0.25 -4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a96a5bcd-6ad3-43ee-9268-d6d3f17cee88")
@@ -627,25 +627,13 @@
 		(layer "F.Fab")
 		(uuid "677c7e29-cba6-4cf4-8531-0767bb661d85")
 	)
-	(fp_text user "*"
-		(at -2.87655 -3.556 0)
+	(fp_text user "."
+		(at -3 -3.556 0)
 		(layer "F.SilkS")
 		(uuid "19a4005c-a0a3-48f7-982a-2f2c1f64881b")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "*"
-		(at -2.87655 -3.556 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "be7d576a-5daa-4548-b709-269eb1eb0845")
-		(effects
-			(font
-				(size 1 1)
+				(size 2 2)
 				(thickness 0.15)
 			)
 		)
