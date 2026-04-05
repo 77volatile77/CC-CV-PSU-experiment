@@ -6912,6 +6912,17 @@
 		)
 		(uuid "ffd7fd5f-670a-49b5-8d26-d73734c5fc81")
 	)
+	(text "Open J7 AND place J8 to test buck with series LDO without dropout regulation\nOpen J8 AND short J7 to test pre-reg global feedback"
+		(exclude_from_sim no)
+		(at 25.4 32.004 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "0b53a02c-af72-4807-a88e-4163b44cb4ca")
+	)
 	(text "CC"
 		(exclude_from_sim no)
 		(at 274.574 174.498 0)
@@ -6966,25 +6977,26 @@
 		)
 		(uuid "487412c8-1470-4c9a-ace2-bdba8296d5ed")
 	)
-	(text "bleeder\n"
+	(text "Open J5 AND short J6  \nOpen J6 AND short J5\nShort J5 AND short J6"
 		(exclude_from_sim no)
-		(at 268.478 79.756 0)
+		(at 202.438 35.306 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left)
+		)
+		(uuid "5a3b8a96-f22c-40f8-91af-d3b8e5744f15")
+	)
+	(text "bleeder / min load for stability\n\n"
+		(exclude_from_sim no)
+		(at 286.512 84.836 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "5b9f327b-0fb5-4575-ba9f-e471b52bd132")
-	)
-	(text "tie EN to a switch or something "
-		(exclude_from_sim no)
-		(at 64.77 59.182 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "62847452-9eff-4258-ade2-3b0116c65184")
 	)
 	(text "500 mV / A"
 		(exclude_from_sim no)
@@ -6995,6 +7007,16 @@
 			)
 		)
 		(uuid "62dcb4e5-62da-45c0-bcc9-5eedefa26729")
+	)
+	(text "(+ margin for PFET drop)"
+		(exclude_from_sim no)
+		(at 26.924 181.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "648a3be9-2a31-45f4-a0cb-b4945934bf9d")
 	)
 	(text "VIN_P range: 11.8V to 15.4V"
 		(exclude_from_sim no)
@@ -7030,13 +7052,23 @@
 	)
 	(text "connect J1 and J2 externally"
 		(exclude_from_sim no)
-		(at 176.022 55.88 0)
+		(at 176.022 54.864 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2 2)
 			)
 		)
 		(uuid "788a11c6-ddf6-4a15-9904-ae57c91a777c")
+	)
+	(text "--> CC loop only\n--> CV loop only\n    --> CC/CV operation"
+		(exclude_from_sim no)
+		(at 255.27 35.56 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "8cd37656-06c5-432f-bec6-e6a5dfc3a074")
 	)
 	(text "CC/CV Indication"
 		(exclude_from_sim no)
